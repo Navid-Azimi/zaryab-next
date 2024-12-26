@@ -1,0 +1,61 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    fontSize: {
+      '1px' : '1px',
+      '5px' : '5px',
+      '6px' : '6px',
+      '7px' : '7px',
+      '8px' : '8px',
+      '10px' : '10px',
+      '12px' : '12px',
+      '13px' : '13px',
+      '14px' : '14px',
+      '15px' : '15px',
+      '16px' : '16px',
+      '17px' : '17px',
+      '18px' : '18px',
+      '20px' : '20px',
+      '25px' : '25px',
+      '26px' : '26px',
+      '27px' : '27px',
+      '28px' : '28px',
+      '30px' : '30px',
+      '36px' : '36px',
+      '43px' : '43px',
+      '46px' : '46px',
+      '50px' : '50px',
+      '52px' : '52px',
+      '59px' : '59px',
+      '60px' : '60px',
+      '65px' : '65px',
+      '76px' : '76px',
+      '94px' : '94px',
+      '97px' : '97px',
+    },
+    extend: {
+      colors: {
+        white : "#FFFCF7",
+        black : "#2F3030",
+        footer : "#2F3030",
+        modal : "#0000008A",
+        gray : "#898C8C",
+        filterBG : "#E1C4C4",
+        footerBtn : "#FCA30A",
+        footerBorder : "#D9D9D9",
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
+      backgroundImage : {
+        'footerPic' : "url('/assets/svg/footerPic.svg')",
+        'aboutPagePic' : "url('/assets/svg/about-page-bg.svg')"
+      }
+    },
+  },
+  plugins: [],
+};
